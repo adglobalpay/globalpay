@@ -1,0 +1,70 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<Welcome />
+</Layout>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envía Remesas y Pagos en USDT - Fácil, Rápido, Seguro</title>
+    <meta name="description" content="Envía remesas y pagos en USDT para tu familia o freelancers. La forma más rápida y segura de transferir dinero. Regístrate y empieza hoy.">
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333;">
+
+    <section style="background-color: #e6f7fc; padding: 40px; text-align: center;">
+        <h1 style="font-size: 2.5em; margin-bottom: 10px; color: #00a1e1;">Remesas y Pagos en USDT</h1>
+        <p style="font-size: 1.2em;">
+            Envía dinero a tu familia o paga a freelancers en minutos. Sin bancos, sin complicaciones, con total seguridad.
+        </p>
+        <a href="#form" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background-color: #00a1e1; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">
+            ¡Empieza ahora!
+        </a>
+    </section>
+
+    <section style="padding: 40px; max-width: 800px; margin: auto; text-align: center;">
+        <h2 style="color: #00a1e1;">¿Por qué elegirnos?</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin: 20px 0;">
+                ✅ <strong>Rápido:</strong> Tus remesas y pagos en USDT llegan en minutos.
+            </li>
+            <li style="margin: 20px 0;">
+                ✅ <strong>Seguro:</strong> Sin intermediarios bancarios, 100% blockchain.
+            </li>
+            <li style="margin: 20px 0;">
+                ✅ <strong>Flexible:</strong> Perfecto para enviar dinero a tu familia o pagar a freelancers en cualquier lugar.
+            </li>
+        </ul>
+    </section>
+
+    <section id="form" style="background-color: #f0f8ff; padding: 40px; text-align: center;">
+        <h2 style="color: #00a1e1;">Regístrate y empieza hoy</h2>
+        <p>Déjanos tus datos y te ayudaremos a comenzar a enviar remesas y pagos en USDT de forma sencilla.</p>
+        <form style="max-width: 400px; margin: auto; text-align: left;">
+            <label>Nombre</label><br>
+            <input type="text" name="name" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label>Mensaje</label><br>
+            <textarea name="message" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea><br>
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #00a1e1; color: #fff; border: none; border-radius: 4px; font-weight: bold;">
+                Enviar
+            </button>
+        </form>
+    </section>
+
+    <footer style="padding: 20px; text-align: center; font-size: 0.9em; color: #555;">
+        © 2025 TuMarca - Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
