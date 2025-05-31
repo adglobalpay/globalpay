@@ -1,2 +1,2 @@
 # globalpay
-landing
+landing.
